@@ -20,6 +20,12 @@ class UserFactory extends Factory
     {
         return [
             'name' => fake()->name(),
+            'surname' => $this->faker->lastName,
+            'dni' => $this->faker->unique()->numerify('########').$this->faker->randomLetter,
+            'phone' => $this->faker->optional()->numerify('+###########'),
+            'country' => $this->faker->optional()->country,
+            'iban' => 'ES' . $this->faker->numerify('##') . $this->faker->numerify('####') . $this->faker->numerify('####') . $this->faker->numerify('##') . $this->faker->numerify('##########'),
+            'about' => $this->faker->optional()->text(250),
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
