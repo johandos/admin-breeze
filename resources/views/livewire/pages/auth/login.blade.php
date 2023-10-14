@@ -30,7 +30,7 @@ new #[Layout('layouts.guest')] class extends Component
             RateLimiter::hit($this->throttleKey());
 
             throw ValidationException::withMessages([
-                'email' => trans('auth.failed'),
+                'email' => trans('validation.failed'),
             ]);
         }
 
