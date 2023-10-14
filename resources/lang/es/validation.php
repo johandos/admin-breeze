@@ -7,6 +7,7 @@ return [
     'confirmed' => 'El campo :attribute no coincide con la confirmacion.',
     'string'   => 'El campo :attribute debe ser una cadena de texto.',
     'failed' => 'Credenciales no válidas',
+    'throttle' => 'Demasiados intentos de inicio de sesión. Por favor, intente de nuevo en :minutes minutos.',
     'min'      => [
         'string' => 'El campo :attribute debe tener al menos :min caracteres.',
     ],
