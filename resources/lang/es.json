@@ -1,0 +1,23 @@
+{
+    "Name": "Nombre",
+    "Surname": "Apellido",
+    "DNI": "DNI",
+    "Email": "Correo electrónico",
+    "Phone": "Teléfono",
+    "Country": "País",
+    "IBAN": "IBAN",
+    "About You": "Acerca de ti",
+    "Password": "Contraseña",
+    "Confirm Password": "Confirmar contraseña",
+    "Register": "Registrar",
+    "Already registered?": "¿Ya estás registrado?",
+    "Remember me": "Recuérdame",
+    "Forgot your password?": "¿Olvidaste tu contraseña?",
+    "Log in": "Iniciar sesión",
+    "Dashboard": "Panel de control",
+    "Product": "Producto",
+    "You're logged in!": "¡Has iniciado sesión!",
+    "Profile": "Perfil",
+    "Log Out": "Cerrar sesión"
+
+}

@@ -15,4 +15,17 @@ return [
         'string' => 'El campo :attribute no debe exceder :max caracteres.',
     ],
     'not_regex' => 'El campo :attribute no debe contener números.',
+    'attributes' => [
+        'name' => 'nombre',
+        'surname' => 'apellido',
+        'dni' => 'DNI',
+        'email' => 'correo electrónico',
+        'phone' => 'teléfono',
+        'country' => 'país',
+        'iban' => 'IBAN',
+        'about' => 'acerca de',
+        'password' => 'contraseña',
+        'description' => 'descripcion',
+        'reference' => 'descripcion',
+    ],
 ];

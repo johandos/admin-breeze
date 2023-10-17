@@ -12,7 +12,7 @@
             <div class="p-6">
                 <form wire:submit.prevent="save">
                     <div class="text-gray-900 dark:text-gray-100">
-                        <h1>Creación de productos</h1>
+                        <h1>{{ __('Creación de productos') }}</h1>
                     </div>
 
 
