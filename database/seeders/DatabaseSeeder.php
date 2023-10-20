@@ -20,5 +20,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'seguridadweb@campusviu.es',
             'password' => bcrypt('S3gur1d4d?W3b'),
         ]);
+
+        $this->call(CountrySeeder::class);
     }
 }
