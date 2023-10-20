@@ -3,6 +3,7 @@
 namespace App\Livewire\Pages\Auth;
 
 use App\Http\Requests\Auth\RegisterRequest;
+use App\Models\Country;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
@@ -26,11 +27,7 @@ class Register extends Component
 
     public function mount(): void
     {
-        $this->countries = [
-            'US' => 'Estados Unidos',
-            'ES' => 'España',
-            'MX' => 'México',
-        ];
+        $this->countries = Country::all()->pluck('name', 'code')->toArray();
     }
 
     public function rules(): array
